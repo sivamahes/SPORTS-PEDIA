@@ -1,0 +1,270 @@
+#s{
+    height: auto;
+    background-color:white;
+    margin: auto;
+}
+#logo{
+      float:left;
+      padding: 0px;
+}
+#heading{
+    float: left;
+    margin: 0;
+    padding: 0px;
+}
+#heading > h1{
+     margin:10px;
+}
+.clearfix{
+    clear: both;
+}
+.article > article > .quote{
+font-family: Courgette;
+}
+#q{
+background-color: yellowgreen;
+}
+#q > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+#q > ul > li{
+display:inline-block;
+}
+#q > ul > li > a{
+    text-decoration: none;
+    color:red;
+    display:block;
+    padding: 15px;
+}
+#q > ul > li > a:hover{
+      background-color: yellow;
+}
+.drop{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    position: absolute;
+    z-index: 999;
+    display:none;
+}
+.drop > li > a{
+    text-decoration: none;
+    color:red;
+    display:block;
+    padding: 15px;
+    background-color: black;
+}
+.drop > li > a:hover{
+background-color: yellow;
+}
+#q > ul > li:hover .drop{
+    display:block;
+}
+.banner{
+    height: 562.5px;
+    overflow: hidden;
+}
+.banner > img{
+    height: auto;
+    max-width: 100%;
+}
+.article{
+    margin:2px;
+    padding:5px;
+    width:700px;
+    height:auto;
+    float:left;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.aside{
+    float:right;
+    width:270px;
+    background-color: turquoise;
+    
+    height: 1122px;
+    margin-left:2px;
+}
+.aside > aside > ul > li{
+    list-style-type: none;
+}
+.aside > aside > ul > li > a{
+    text-decoration:none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+h1, h2, h3{
+    font-family: Bebas Neue;
+    font-size:32px;
+}
+h2, h3{
+    color:darkred ;
+   }
+.back{
+    background-color: black;
+    color:white;
+    height: auto;
+    width: 50%;
+    float: left;
+    height: 176px;
+    list-style-type: none;
+}
+.back > h3{
+    padding:2px;
+}
+.back > ul > li{
+    list-style-type: none;
+    padding: 1px;
+    font-family: brawler;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.back > ul > li > a{
+    color:white;
+    text-decoration:none;
+}
+.footer1 > .address{
+ color:white;
+}
+
+.address{
+    float:right;
+    background-color: black;
+    height: 176px;
+    width: 50%;
+}
+.address > p{
+    padding: 10px;
+    font-family: brawler;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footer1{
+background-color: black;
+}
+.footer{
+    float:right;
+    background-color: greenyellow;
+    color:red;
+    width: 1333px;
+    margin:0px;
+    text-align: center;
+}
+@media screen and (max-width:1010px){
+    #s{
+        width:100%;
+        height: 100%;
+    }
+    .banner{
+        height: auto;
+        overflow: hidden;
+        width:100%;
+        }
+    .banner > img{
+        height: auto;
+        width: 100%;
+    }
+    #q{
+        width:100%;
+    }
+    .article{
+        width: 100%;
+    }
+    .aside{
+        width: 100%;
+        height: auto;
+    }
+    .back{
+        width: 50%;
+        height: 230px;
+    }
+    .address{
+        width: 50%;
+        height: 230px;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    p{
+        padding: 10px;
+        font-family: brawler;
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    li{
+        padding: 10px;
+        font-family: brawler;
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    #copy{
+        font-size: 20px;
+    }  
+    }
+    @media screen and (max-width:640px){
+        .back{
+            width: 100%;
+            height: auto;
+        }
+        .address{
+            width: 100%;
+            height: auto;
+        }
+    }
+@media screen and (max-width:310px){
+    #s{
+        width:310px;
+        height: auto;
+    }
+    .banner{
+        height: auto;
+        overflow: hidden;
+        width:310px;
+        }
+    .banner > img{
+        height: auto;
+        width: 310px;
+    }
+    #q{
+        width:310px;
+    }
+    .article{
+        width: 310px;
+    }
+    .aside{
+        width: 310px;
+        height: auto;
+    }
+    .back{
+        width: 310px;
+        height: auto;
+    }
+    .address{
+        width: 310px;
+        height: auto;
+    }
+    .footer{
+        width: 310px;
+        height: auto;
+    }
+    p{
+        padding: 10px;
+        font-family: brawler;
+        font-size: 28px;
+        line-height: 1.5;
+    }
+    li{
+        padding: 10px;
+        font-family: brawler;
+        font-size: 28px;
+        line-height: 1.5;
+    }  
+    #copy{
+        font-size: 16px;
+    }
+}
